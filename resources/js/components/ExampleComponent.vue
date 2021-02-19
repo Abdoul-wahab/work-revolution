@@ -371,9 +371,9 @@ body, .splitpanes__pane{
   align-items: center;
   padding: 10px 40px;
   position: absolute;
-  width: 1300px;
   height: 59px;
   left: 20px;
+  right: 20px;
   top: 20px;
   background: #FFFEFB;
   border-radius: 16px;
