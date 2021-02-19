@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="container main">
     <div class="container-fliud menu mb-3">
       <div class="menu-item home">
         <svg width="39" height="46" viewBox="0 0 39 46" fill="none" xmlns="http://www.w3.org/2000/svg">
