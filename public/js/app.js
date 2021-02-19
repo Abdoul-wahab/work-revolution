@@ -46974,9 +46974,9 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container main" },
+    { staticClass: "container-fliud main" },
     [
-      _c("div", { staticClass: "container-fliud menu mb-3" }, [
+      _c("div", { staticClass: "menu mb-3" }, [
         _c("div", { staticClass: "menu-item home" }, [
           _c(
             "svg",
