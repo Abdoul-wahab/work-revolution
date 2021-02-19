@@ -134,7 +134,7 @@
             itemKey="name"
           >
             <div v-for="element in list1" :key="element.id">
-              <svg class="item-el" width="434" height="145" viewBox="0 0 434 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="item-el" viewBox="0 0 434 145" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#filter0_d)">
               <rect x="20" y="15" width="394" height="105" rx="16" fill="#FFFEFB"/>
               </g>
@@ -148,7 +148,7 @@
               <circle cx="235.5" cy="46.5" r="8.5" fill="#2C2C2C"/>
               <path d="M233.322 46.5039L233.732 42.8906H237.717V44.0674H234.89L234.714 45.5957C235.049 45.4167 235.406 45.3271 235.783 45.3271C236.46 45.3271 236.991 45.5371 237.375 45.957C237.759 46.377 237.951 46.9645 237.951 47.7197C237.951 48.1787 237.854 48.5905 237.658 48.9551C237.466 49.3164 237.189 49.598 236.828 49.7998C236.467 49.9984 236.04 50.0977 235.549 50.0977C235.119 50.0977 234.72 50.0114 234.353 49.8389C233.985 49.6631 233.693 49.4173 233.479 49.1016C233.267 48.7858 233.155 48.4261 233.142 48.0225H234.538C234.567 48.3187 234.67 48.5498 234.846 48.7158C235.025 48.8786 235.257 48.96 235.544 48.96C235.863 48.96 236.109 48.846 236.281 48.6182C236.454 48.387 236.54 48.0615 236.54 47.6416C236.54 47.238 236.441 46.9287 236.242 46.7139C236.044 46.499 235.762 46.3916 235.397 46.3916C235.062 46.3916 234.79 46.4795 234.582 46.6553L234.445 46.7822L233.322 46.5039Z" fill="white"/>
               <defs>
-              <filter id="filter0_d" x="0" y="0" width="434" height="145" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <filter id="filter0_d" x="0" y="0" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix"/>
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
               <feOffset dy="5"/>
@@ -195,7 +195,7 @@
             itemKey="name"
           >
             <div class="element-card m-3 col-3" v-for="element in list2" :key="element.id">
-              <svg width="279" height="145" viewBox="0 0 279 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg viewBox="0 0 279 145" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#filter0_d)">
               <rect x="20" y="15" width="239" height="105" rx="16" fill="#FFFEFB"/>
               </g>
@@ -207,7 +207,7 @@
               <circle cx="104.5" cy="46.5" r="8.5" fill="#2C2C2C"/>
               <path d="M105.54 50H104.129V44.5605L102.444 45.083V43.9355L105.389 42.8809H105.54V50Z" fill="white"/>
               <defs>
-              <filter id="filter0_d" x="0" y="0" width="279" height="145" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <filter id="filter0_d" x="0" y="0" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix"/>
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
               <feOffset dy="5"/>
@@ -323,6 +323,15 @@ export default {
 </script>
 
 <style>
+
+/* .element-card{
+    width: 239px;
+    height: 105px;
+  } */
+/* .dash-filter{
+  width: 239px;
+  height: 105px;
+} */
 .scroller {
   height: 50vh;
   overflow-y: scroll;

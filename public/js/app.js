@@ -6772,7 +6772,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.scroller {\n  height: 50vh;\n  overflow-y: scroll;\n  scrollbar-color: #6260EF #FFFEFB;\n  scrollbar-width: 6px;\n}\n.my-projects{\n  margin-left: 20px;\n}\nbody, .splitpanes__pane{\n  background: #E5E5E5 !important;\n}\n.splitpanes__splitter {width: 0px !important; border: 1px solid #FFFEFB !important; position: relative;}\n.open-slit {\n  position: absolute;\n  top: 47%;\n  right: 65%;\n  font-size: 20px;\n  cursor: pointer;\n  padding: 8px;\n  z-index: 999;\n}\n.open-slit-right {\n  position: absolute;\n  top: 47%;\n  left: 35%;\n  font-size: 20px;\n  cursor: pointer;\n  padding: 8px;\n  z-index: 999;\n}\n.menu{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  padding: 10px 40px;\n  position: absolute;\n  width: 1300px;\n  height: 59px;\n  left: 20px;\n  top: 20px;\n  background: #FFFEFB;\n  border-radius: 16px;\n  z-index: 1;\n}\n.menu-item{\n  position: absolute;\n}\n.home{\n  width: 46px;\n  height: 46px;\n  left: 40px;\n  top: 11px;\n}\n.dash-board{\n  width: 54px;\n  height: 49px;\n  left: 186px;\n  top: 10px;\n}\n.projects{\n  width: 36px;\n  height: 48px;\n  left: 300px;\n  top: 10px;\n}\n.profil{\n  width: 32px;\nheight: 49px;\nleft: 396px;\ntop: 10px;\n}\n.intranet{\n  width: 40px;\nheight: 49px;\nleft: 678px;\ntop: 10px;\n}\n.salles{\n  width: 32px;\nheight: 49px;\nleft: 586px;\ntop: 10px;\n}\n.calender{\n width: 38px;\nheight: 49px;\nleft: 488px;\ntop: 10px;\n}\n.smartdesk{\n  width: 32px;\n  height: 32px;\n  right: 40px;\n  top: 18.5px;\n}\n.flip-list-move {\n  transition: transform 0.5s;\n}\n.no-move {\n  transition: transform 0.5s;\n}\n.ghost {\n  opacity: 0.5;\n  background: #c8ebfb;\n}\n.row-dorg {\n  min-height: 50px;\n}\n.element-card {\n  cursor: move;\n}\n.element-card i {\n  cursor: pointer;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* .element-card{\n    width: 239px;\n    height: 105px;\n  } */\n/* .dash-filter{\n  width: 239px;\n  height: 105px;\n} */\n.scroller {\n  height: 50vh;\n  overflow-y: scroll;\n  scrollbar-color: #6260EF #FFFEFB;\n  scrollbar-width: 6px;\n}\n.my-projects{\n  margin-left: 20px;\n}\nbody, .splitpanes__pane{\n  background: #E5E5E5 !important;\n}\n.splitpanes__splitter {width: 0px !important; border: 1px solid #FFFEFB !important; position: relative;}\n.open-slit {\n  position: absolute;\n  top: 47%;\n  right: 65%;\n  font-size: 20px;\n  cursor: pointer;\n  padding: 8px;\n  z-index: 999;\n}\n.open-slit-right {\n  position: absolute;\n  top: 47%;\n  left: 35%;\n  font-size: 20px;\n  cursor: pointer;\n  padding: 8px;\n  z-index: 999;\n}\n.menu{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  padding: 10px 40px;\n  position: absolute;\n  width: 1300px;\n  height: 59px;\n  left: 20px;\n  top: 20px;\n  background: #FFFEFB;\n  border-radius: 16px;\n  z-index: 1;\n}\n.menu-item{\n  position: absolute;\n}\n.home{\n  width: 46px;\n  height: 46px;\n  left: 40px;\n  top: 11px;\n}\n.dash-board{\n  width: 54px;\n  height: 49px;\n  left: 186px;\n  top: 10px;\n}\n.projects{\n  width: 36px;\n  height: 48px;\n  left: 300px;\n  top: 10px;\n}\n.profil{\n  width: 32px;\nheight: 49px;\nleft: 396px;\ntop: 10px;\n}\n.intranet{\n  width: 40px;\nheight: 49px;\nleft: 678px;\ntop: 10px;\n}\n.salles{\n  width: 32px;\nheight: 49px;\nleft: 586px;\ntop: 10px;\n}\n.calender{\n width: 38px;\nheight: 49px;\nleft: 488px;\ntop: 10px;\n}\n.smartdesk{\n  width: 32px;\n  height: 32px;\n  right: 40px;\n  top: 18.5px;\n}\n.flip-list-move {\n  transition: transform 0.5s;\n}\n.no-move {\n  transition: transform 0.5s;\n}\n.ghost {\n  opacity: 0.5;\n  background: #c8ebfb;\n}\n.row-dorg {\n  min-height: 50px;\n}\n.element-card {\n  cursor: move;\n}\n.element-card i {\n  cursor: pointer;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -47786,8 +47786,6 @@ var render = function() {
                           {
                             staticClass: "item-el",
                             attrs: {
-                              width: "434",
-                              height: "145",
                               viewBox: "0 0 434 145",
                               fill: "none",
                               xmlns: "http://www.w3.org/2000/svg"
@@ -47891,8 +47889,6 @@ var render = function() {
                                     id: "filter0_d",
                                     x: "0",
                                     y: "0",
-                                    width: "434",
-                                    height: "145",
                                     filterUnits: "userSpaceOnUse",
                                     "color-interpolation-filters": "sRGB"
                                   }
@@ -48119,8 +48115,6 @@ var render = function() {
                             "svg",
                             {
                               attrs: {
-                                width: "279",
-                                height: "145",
                                 viewBox: "0 0 279 145",
                                 fill: "none",
                                 xmlns: "http://www.w3.org/2000/svg"
@@ -48209,8 +48203,6 @@ var render = function() {
                                       id: "filter0_d",
                                       x: "0",
                                       y: "0",
-                                      width: "279",
-                                      height: "145",
                                       filterUnits: "userSpaceOnUse",
                                       "color-interpolation-filters": "sRGB"
                                     }
