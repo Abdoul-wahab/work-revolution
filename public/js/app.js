@@ -46976,7 +46976,7 @@ var render = function() {
     "div",
     { staticClass: "main" },
     [
-      _c("div", { staticClass: "menu mb-3" }, [
+      _c("div", { staticClass: "container-fliud menu mb-3" }, [
         _c("div", { staticClass: "menu-item home" }, [
           _c(
             "svg",
@@ -48112,7 +48112,7 @@ var render = function() {
                         "div",
                         {
                           key: element.id,
-                          staticClass: "element-card  m-3 col-3"
+                          staticClass: "element-card m-3 col-3"
                         },
                         [
                           _c(

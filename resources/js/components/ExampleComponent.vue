@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <div class="menu mb-3">
+    <div class="container-fliud menu mb-3">
       <div class="menu-item home">
         <svg width="39" height="46" viewBox="0 0 39 46" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0)">
@@ -194,7 +194,7 @@
             @change="log"
             itemKey="name"
           >
-            <div class="element-card  m-3 col-3" v-for="element in list2" :key="element.id">
+            <div class="element-card m-3 col-3" v-for="element in list2" :key="element.id">
               <svg width="279" height="145" viewBox="0 0 279 145" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#filter0_d)">
               <rect x="20" y="15" width="239" height="105" rx="16" fill="#FFFEFB"/>
